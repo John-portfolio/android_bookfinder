@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sigilius.android.bookfinder.MainActivity">
+
+    <LinearLayout
+        style="@style/linear_layout_vert"
+        android:paddingBottom="@dimen/padding_16"
+        android:paddingTop="@dimen/padding_16">
+
+        <EditText
+            android:id="@+id/searchInput"
+            style="@style/search_text"
+            android:hint="@string/search_hint"/>
+
+        <Button
+            android:id="@+id/searchButton"
+            style="@style/search_button"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/search_button"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/list_view"/>
+
+    <TextView
+        android:id="@+id/instruction"
+        style="@style/instruction_text"/>
+
+</LinearLayout>
+
+

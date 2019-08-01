@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/wrapper_layout">
+
+    <LinearLayout
+        style="@style/linear_layout_horiz">
+
+        <ImageView
+            android:id="@+id/image_place"
+            style="@style/image"/>
+
+        <LinearLayout
+            style="@style/linear_layout_vert">
+
+            <TextView
+                style="@style/text_label"
+                android:text="@string/title"/>
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/text_output"/>
+
+            <TextView
+                style="@style/text_label"
+                android:text="@string/author"/>
+
+            <TextView
+                android:id="@+id/author"
+                style="@style/text_output"/>
+
+            <TextView
+                style="@style/text_label"
+                android:text="@string/isbn13"/>
+
+            <TextView
+                android:id="@+id/isbn13"
+                style="@style/text_output"/>
+
+            <TextView
+                style="@style/text_label"
+                android:text="@string/isbn10"/>
+
+            <TextView
+                android:id="@+id/isbn10"
+                style="@style/text_last_output"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
